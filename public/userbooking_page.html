@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Booking</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./book.html">back</a>
+                </li>
+                <li>
+                    <a href="../index.html">main menu</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Confirm Booking</h1>
+    </header>
+    <hr />
+    <main>
+        <form action="confirm.html">
+            <section>
+                <label for="Name">Name</label>:
+                <input type="text" id="Name" name="myName" placeholder="enter your name"/>
+            </section>
+            <br />
+            <section>
+                <label for="age">Age</label>:
+                <input type="number" id="age" name="myAge" />
+            </section>
+            <br />
+            <section>
+                <label for="phone">Phone no.</label>:
+                <input type="tel" id="phone" name="mynumber" />
+            </section>
+            <br />
+            <section>
+                <label for="mail">Email id</label>:
+                <input type="email" id="mail" name="myEmail" />
+            </section>
+            <br />
+            <section>
+                <label for="package">Select package</label>:
+                <select name="mySelection" id="package">
+                    <option value="basic">Basic Safari Package</option>
+                    <option value="Premium">Premium Safari Package</option>
+                    <option value="Diamond" selected>Diamond Safair Package</option>
+                </select>
+            </section>
+            <br />
+            <section>
+                <input type="submit" />
+            </section>
+        </form>
+    </main>
+    <hr />
+    <footer>
+        <p>For any help, please <a href="./contactus.html">Contact us</a>.</p>
+    </footer>
+</body>
+</html>
